@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://petsamuel.github.io/creative-team/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://github.com/Petsamuel/creative-team">
       Solution
     </a>
     <span> | </span>
@@ -54,6 +54,5 @@ However experienced gain is the use and manipulation of css grid and flex to arc
 
 ## Contact
 
-- Website [your-website.com](https://{your-web-site-link})
-- GitHub [@your-username](https://{github.com/petsamuel})
-- Twitter [@your-twitter](https://{twitter.com/bieefilled})
+- GitHub [@your-username](https://github.com/petsamuel)
+- Twitter [@your-twitter](https://twitter.com/bieefilled)
