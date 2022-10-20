@@ -54,5 +54,5 @@ However experienced gain is the use and manipulation of css grid and flex to arc
 
 ## Contact
 
-- GitHub [@your-username](https://github.com/petsamuel)
-- Twitter [@your-twitter](https://twitter.com/bieefilled)
+- GitHub [@Petsamuel](https://github.com/petsamuel)
+- Twitter [@bieefilled](https://twitter.com/bieefilled)
