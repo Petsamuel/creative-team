@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css?family=PT Serif");
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    
+}
+
+body {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+}
+
+:root {
+    --image-1: url("./images/photo1.png");
+    --image-2: url("./images/photo2.png");
+    --image-3: url("./images/photo3.png");
+    --image-4: url("./images/photo4.png");
+    --image-5: url("./images/photo5.png");
+    --image-6: url("./images/photo6.png");
+}
+
+.heading {
+    font-family: 'PT Serif';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: -0.045em;
+}
+
+.team-heading {
+    flex: 50%;
+}
+
+.main-content-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 100%;
+    gap: 4rem;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+    gap: 5%;
+    margin: 5%;
+}
+
+.text-title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    text-transform: uppercase;
+}
+
+.text-content {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+}
+
+.image1 {
+    content: var(--image-1);
+    width: 100%;
+}
+
+.image-2 {
+    content: var(--image-2);
+    width: 100%;
+}
+
+.padding-top {
+    /* margin:1rem; */
+    padding-top: 4em;
+}
+
+.image-3 {
+    width: 100%;
+    content: var(--image-3);
+
+}
+
+.image-4 {
+    width: 100%;
+    content: var(--image-4);
+
+}
+
+.image-5 {
+    width: 100%;
+    content: var(--image-5);
+
+}
+
+.image-6 {
+    width: 100%;
+    content: var(--image-6);
+
+}
+
+.post-content {
+    writing-mode: vertical-rl;
+    text-align: right;
+    height: fit-content;
+    font-family: 'PT Serif';
+    margin: 0px -1.5em 0em 0.5em;
+
+}
+
+.name-content {
+    font-family: 'Poppins';
+    margin-top:8px;
+}
+
+.content-one,
+.content-two,
+.content-three,
+.content-four,
+.content-five,
+.content-six {
+    display: flex;
+    justify-content: flex-end;
+   
+    
+}
+.content-two, .content-five{
+    margin-top:9rem;
+}
+
+
+
+
+
+@media screen and (max-width:440px),
+(max-width:800px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        padding-top: 71px;
+
+    }
+
+    .main-content-container {
+        display: grid;
+        grid-template-columns: auto auto;
+        width: 100%;
+        gap: 2rem;
+    }
+    .content-two, .content-four, .content-six{
+        margin-top:4rem;
+    }
+    .content-five{
+        margin-top:0px;
+    }
+    
+}
